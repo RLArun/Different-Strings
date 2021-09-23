@@ -1,7 +1,0 @@
-str=input('enter a string:')
-dublicates=[]
-for char in str:
-   if str.count(char)>1:
-      if char not in dublicates:
-          dublicates.append(char)
-print(dublicates)
